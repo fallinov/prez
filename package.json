@@ -1,0 +1,20 @@
+{
+  "name": "prez",
+  "private": true,
+  "description": "Présentations ESIG - Générées avec Slidev",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "dev:741-medias": "slidev presentations/741-gestion-medias/slides.md",
+    "build:741-medias": "slidev build presentations/741-gestion-medias/slides.md --base /741-gestion-medias/ --out dist/741-gestion-medias",
+    "build:all": "node scripts/build-all.js"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/theme-default": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.40.0"
+  }
+}
