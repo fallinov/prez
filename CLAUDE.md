@@ -1,5 +1,7 @@
 # Présentations ESIG - Slidev
 
+Projet **ESIG** — contexte institutionnel, plans de cours et stack technique : voir `~/ESIG/CLAUDE.md`.
+
 ## Projet
 Application de génération de présentations pour les cours ESIG.
 
